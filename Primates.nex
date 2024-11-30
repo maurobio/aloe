@@ -1,0 +1,99 @@
+#NEXUS
+
+[ File saved by NDE version 0.5.0, Mon Mar 20 23:59:25 2006 ]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX=15;
+	TAXLABELS
+		Outgroup
+		'Amazon-Napo'
+		'Napo-Putumayo'
+		'Putumayo-Japurá'
+		'Japurá-Negro'
+		'Negro-Trombetas'
+		'Trombetas-Atlantic'
+		'Amazon-Javari'
+		'Javari-Juruá'
+		'Juruá-Purús'
+		'Purús-Madeira'
+		'Madeira-Tapajós'
+		'Tapajós-Xingu'
+		'Xingu-Tocantins'
+		'Tocantins-Maranhão'
+		;
+ENDBLOCK;
+
+BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=51;
+	FORMAT DATATYPE=STANDARD MISSING=? GAP=- SYMBOLS="01";
+	CHARLABELS
+		[1] 'Cebus apella'
+		[2] 'Cebus nigrivittatus'
+		[3] 'Cebus kaapori'
+		[4] 'Cebus albifrons'
+		[5] 'Saimiri sciureus'
+		[6] 'Aotus trivirgatus'
+		[7] 'Aotus vociferans'
+		[8] 'Aotus nancymai'
+		[9] 'Aotus miconax'
+		[10] 'Aotus infulatus'
+		[11] 'Aotus nigriceps'
+		[12] 'Callicebus moloch'
+		[13] 'Callicebus cupreus'
+		[14] 'Callicebus hoffmannsi'
+		[15] 'Callicebus caligatus'
+		[16] 'Callicebus brunneus'
+		[17] 'Callicebus cinerascens'
+		[18] 'Callicebus oenathe'
+		[19] 'Callicebus dubius'
+		[20] 'Callicebus torquatus'
+		[21] 'Callimico goeldi'
+		[22] 'Saguinus bicolor'
+		[23] 'Saguinus fuscicollis'
+		[24] 'Saguinus tripartitus'
+		[25] 'Saguinus imperator'
+		[26] 'Saguinus inustus'
+		[27] 'Saguinus labiatus'
+		[28] 'Saguinus midas'
+		[29] 'Saguinus mystax'
+		[30] 'Saguinus nigricollis'
+		[31] 'Callithrix argentata'
+		[32] 'Callithrix leucippe'
+		[33] 'Callithrix humeralifer'
+		[34] 'Callithrix chrysoleuca'
+		[35] 'Callithrix intermedius'
+		[36] 'Callithrix nigriceps'
+		[37] 'Callithrix mauesi'
+		[38] 'Callithrix emiliae'
+		[39] 'Cebuella pygmeae'
+		[40] 'Pitechia pitechia'
+		[41] 'Pitechia irrorata'
+		[42] 'Pitechia albicans'
+		[43] 'Pitechia aequatorialis'
+		[44] 'Pitechia monachus'
+		[45] 'Chiropotes satanas'
+		[46] 'Chiropotes albinasus'
+		[47] 'Cacajao calvus'
+		[48] 'Cacajao melanocephalus'
+		[49] 'Allouata belzebul'
+		[50] 'Allouata seniculus'
+		[51] 'Lagotrix lagotricha'
+		;
+	MATRIX
+		Outgroup                0000000000 0000000000 0000000000 0000000000 0000000000 0
+		'Amazon-Napo'           1001101100 0010000001 1011000001 0000000010 0011000001 1
+		'Napo-Putumayo'         1001101000 0010000001 1011000001 0000000010 0011001001 1
+		'Putumayo-Japurá'       1001101000 0000000001 1010001001 0000000010 0001001001 1
+		'Japurá-Negro'          1001101000 0000000001 0000010000 0000000000 0001000101 1
+		'Negro-Trombetas'       1100110000 0000000001 0100010100 0000000001 0000100101 1
+		'Trombetas-Atlantic'    1100110000 0000000000 0100000100 0000000001 0000100011 0
+		'Amazon-Javari'         1001100110 1010100100 1010000010 0000000010 0001000001 1
+		'Javari-Juruá'          1001100100 1010100001 1010000010 0000000010 0001001001 1
+		'Juruá-Purús'           1001100000 1010100001 1010100010 0000000010 1101001001 1
+		'Purús-Madeira'         1001101000 1010110010 0010101010 0000000000 1000000011 1
+		'Madeira-Tapajós'       1001100000 1101011000 0010000000 0011111100 1000010011 1
+		'Tapajós-Xingu'         1000100001 0100000000 0000000000 1100000100 0000010010 0
+		'Xingu-Tocantins'       1000100001 0100000000 0000000100 1000000000 0000100010 0
+		'Tocantins-Maranhão'    1010100001 0000000000 0000000100 0000000000 0000100010 0
+	;
+ENDBLOCK;
