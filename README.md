@@ -1,4 +1,4 @@
-# ![aloe](C:\Users\mauro\My Documents\Downloads\aloe.png)Aloe
+# ![aloe](aloe.png)Aloe
 **A**na**L**ysis **O**f **E**ndemicity
 
 A C++ program that computes endemicity statistics from taxon-area data matrices in [NEXUS format](http://wiki.christophchamp.com/index.php?title=NEXUS_file_format) using the [Nexus Class Library](https://ncl.sourceforge.net/)
