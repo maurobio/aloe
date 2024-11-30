@@ -1,0 +1,140 @@
+Reading "TAXA" block...
+Finished with "TAXA" block.
+
+*************
+* Standard  *
+*************
+
+Reading "CHARACTERS" block...
+Finished with "CHARACTERS" block.
+
+*************
+* Standard  *
+*************
+
+**********
+* Tokens *
+**********
+
+Reading "CHARACTERS" block...
+Finished with "CHARACTERS" block.
+
+*************
+* Standard  *
+*************
+
+**********
+* Tokens *
+**********
+
+***********
+* Symbols *
+***********
+
+Reading "CHARACTERS" block...
+Finished with "CHARACTERS" block.
+
+*************
+* Standard  *
+*************
+
+**********
+* Tokens *
+**********
+
+***********
+* Symbols *
+***********
+
+*****************************
+* Interleaved, missing taxa *
+*****************************
+
+Reading "CHARACTERS" block...
+Finished with "CHARACTERS" block.
+
+*************
+* Standard  *
+*************
+
+**********
+* Tokens *
+**********
+
+***********
+* Symbols *
+***********
+
+*****************************
+* Interleaved, missing taxa *
+*****************************
+
+****************
+** transposed **
+****************
+
+Reading "CHARACTERS" block...
+Finished with "CHARACTERS" block.
+
+Reports follow on all blocks currently in memory.
+
+TAXA block contains 6 taxa
+	1	P. fimbriata
+	2	P. robusta
+	3	P. americana
+	4	P. myriophylla
+	5	P. polygama
+	6	P. macrophylla
+
+CHARACTERS block contains 6 taxa and 15 characters
+  Data type is "DNA"
+  Ignoring case
+  Data matrix entries are expected to be single symbols
+  Character labels are expected on left side of matrix
+  Character and character state labels:
+	1	site 1
+	2	site 2
+	3	site 3
+	4	site 4
+	5	site 5
+	6	site 6
+	7	site 7
+	8	site 8
+	9	site 9
+	10	site 10
+	11	site 11
+	12	site 12
+	13	site 13
+	14	site 14
+	15	site 15
+  Matrix transposed but not interleaved
+  Missing data symbol is '?'
+  No match character specified
+  No gap character specified
+  Valid symbols are: ACGT
+  Equate macros in effect:
+    B = {CGT}
+    D = {AGT}
+    H = {ACT}
+    K = {GT}
+    M = {AC}
+    N = {ACGT}
+    R = {AG}
+    S = {CG}
+    V = {ACG}
+    W = {AT}
+    X = {ACGT}
+    Y = {CT}
+  No characters were eliminated
+  The following characters have been excluded:
+    (no characters excluded)
+  The following taxa have been deleted:
+    (no taxa deleted)
+  Data matrix:
+    P. fimbriata       ACCTCGGCTTAACGA
+    P. robusta         ACCTCGGCTTAACCA
+    P. americana       ACGTCGCTCTCACCA
+    P. myriophylla     ACGTCGCTTTCACCA
+    P. polygama        ACCTCGCTTTCACGA
+    P. macrophylla     ACCTCGCTTTCACGA
+

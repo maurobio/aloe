@@ -1,0 +1,30 @@
+Output comment before first block
+Skipping unknown block (paup)...
+Output comment before first blockLet's see if we can deal with [nested] comments
+Output comment before first blockLet's see if we can deal with [nested] comments
+What happens if we do this!
+
+Reading "TAXA" block...
+Output comment before first blockLet's see if we can deal with [nested] comments
+What happens if we do this!
+output comment in TAXLABELS command
+Reading "TREES" block...
+
+TAXA block contains 11 taxa
+	1	P. fimbriata
+	2	P. robusta
+	3	P. americana
+	4	P. myriophylla
+	5	P. articulata
+	6	P. parksii
+	7	P. gracilis
+	8	P. macrophylla
+	9	P. polygama
+	10	P. basiramia
+	11	P. ciliata
+
+TREES block contains 4 trees
+	1	unrooted	(unrooted,default tree)
+	2	rooted	(rooted)
+	3	u to r	(rooted)
+	4	r to u	(unrooted)
